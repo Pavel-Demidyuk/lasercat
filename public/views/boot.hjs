@@ -1,0 +1,6 @@
+{{>header}}
+{{$content}}
+Laser Cat<br/>
+Loading...
+{{/content}}
+{{>footer}}
