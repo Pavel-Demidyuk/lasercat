@@ -19,7 +19,7 @@ var registerListeners = function (app) {
 var defineRoutes = function (app) {
 	app.io.route('app', {
 		'ready': function () {
-            app.io.broadcast("page:home");
+            app.io.broadcast("page:home", {data:"123"});
 		}
 	});
 

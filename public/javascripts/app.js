@@ -15,6 +15,7 @@ define([
 
 	var listen = function() {
 		io.on("page:home", function(data){
+			console.log(data)
 			pages.render("home", {}, function() {
 				servo.start();
 			});
