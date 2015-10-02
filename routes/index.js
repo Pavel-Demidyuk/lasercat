@@ -1,21 +1,8 @@
-//var Model = require('../libs/model');
-//var dbModel = new Model;
-//var FsController = require('../libs/fs');
-//var fsController = new FsController();
-//var DrivesController = require('../libs/servo');
-//var drivesController = new DrivesController(dbModel);
-//var GroupsController = require('../libs/groups');
-//var groupsController = new GroupsController(dbModel);
 var Servo = require('../libs/servo');
 var servo = new Servo;
 var events = require('events');
 
 var globalRes;
-//
-//var newDrivesAvaliable = function () {
-//	return true;
-//}
-
 
 /**
  * This method describes _CONTROLLERS_ logic
